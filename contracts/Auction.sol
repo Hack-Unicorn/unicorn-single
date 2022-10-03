@@ -83,7 +83,7 @@ contract AuctionImplementation {
      * ===================================================
      */
 
-    function initailize(address _seller, IERC20 _protocol_token) public {
+    function initialize(address _seller, IERC20 _protocol_token) public {
         if(initailized) {
             revert AlreadyIntialized();
         }
